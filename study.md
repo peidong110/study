@@ -11,9 +11,8 @@ Type ```vi .bashrc``` and press ``` i ``` to add the line below to your home dir
 (No Space between windir and '')
 Press ```ESC``` and put ```:wq``` to exit vim.
 So you can just type ```winDir``` to access your host machine directory
+
 ---
-
-
 ### C++
 A reference is not an object, it's actually just another name of an exising objects.
 It must be an object when creating a pointer.
