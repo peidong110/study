@@ -1,7 +1,4 @@
-# Here is my study notes over the summer
-
 ### Bash
-
 Creating a linux subsystem in windows10 is very helpful and useful, since you're combining the advantages of Linux Ubuntu and Windows 10.
 After installing it in Windows Store, type ```sudo apt-get update && sudo apt-get upgrade``` to update available packages.
 type ```pwd```, and you will see ```/home/username```
@@ -11,10 +8,10 @@ Type ```vi .bashrc``` and press ``` i ``` to add the line below to your home dir
 (No Space between windir and '')
 Press ```ESC``` and put ```:wq``` to exit vim.
 So you can just type ```winDir``` to access your host machine directory
-
 ---
+
+
 ### C++
-Source: C++ Primier 5th Edition
 A reference is not an object, it's actually just another name of an exising objects.
 It must be an object when creating a pointer.
 ```int &val = 13 ``` 
@@ -50,4 +47,4 @@ const int b = a; // this will workm since it's not changing the values but copyi
 
 
 ### Version Control
-Lest we destroy or damage the data in our Master branch, we need to create a branch and make changes in the branch, in order to do that you can just type ```git checkout -b branchName``` And this will create a new branch and switch into that branch. You can modify your changes there. Using ```git status``` will let you know the changes you made. 
+Lest we destroy or damage the data in our Master branch, we need to create a branch and make changes in the branch, in order to do that you can just type ```git checkout -b branchName``` And this will create a new branch and switch into that branch. You can modify your changes there. Using ```git status``` will let you know the changes you made. ```git add .``` will all the changed files. ```git commit -m "Replace this with your commit mssages" ``` will make the commit, and leave a commit message. ```git push origin branchName``` will push all the changes to that branch. However if you add something which you did not intend to add, you can use ```git reset branchName^``` to reset the banch and clear all the history. So after resetting the branch, when you are trying to add files and push changes to your own branch. You might face a problem which indicates ```Updates were rejected becasue the tip of your current branch is behind.``` The reasons for this happening is that you just uploaded files that you don't want, now when you reset the branch, and you're not adding items(files you don't whant) this time. In order to solve this issue, you can actually use ```git push -f origin branchName``` to forece git to make changes. At this point you have successfully deleting files you do not want.
