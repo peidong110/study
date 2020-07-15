@@ -1,4 +1,4 @@
-### Bash
+### Bash and Linux
 Creating a linux subsystem in windows10 is very helpful and useful, since you're combining the advantages of Linux Ubuntu and Windows 10.
 After installing it in Windows Store, type ```sudo apt-get update && sudo apt-get upgrade``` to update available packages.
 type ```pwd```, and you will see ```/home/username```
@@ -20,6 +20,8 @@ If you want to check out the history of commands you ran in the past, you can ac
 ``` 
 Sometimes command can be long and it's hard to retype it again. So if you do not want to type it manually again, you can do !NumberOfId, if I want to rerun command ```repo sync -j8``` You can just type ```!1999``` to help you to do that
 
+
+---
 
 ### C++
 A reference is not an object, it's actually just another name of an exising objects.
