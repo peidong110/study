@@ -9,6 +9,7 @@ Type ```vi .bashrc``` and press ``` i ``` to add the line below to your home dir
 Press ```ESC``` and put ```:wq``` to exit vim.
 So you can just type ```winDir``` to access your host machine directory
 <br>
+### history 
 If you want to check out the history of commands you ran in the past, you can achieve that by type ```history``` and you will be able see a list like 
 ```
  1999  repo sync -j8
