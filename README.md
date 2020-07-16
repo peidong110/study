@@ -21,6 +21,13 @@ If you want to check out the history of commands you ran in the past, you can ac
 Sometimes command can be long and it's hard to retype it again. So if you do not want to type it manually again, you can do !NumberOfId, if I want to rerun command ```repo sync -j8``` You can just type ```!1999``` to help you to do that
 
 
+### find
+If you want to look for a file in a folder, you can use find keyword
+```find . -name fileName.extension```
+If the file exits terminal will return ./fileName.extension, else nothing will be returned.
+
+
+
 ---
 
 ### C++
