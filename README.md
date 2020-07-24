@@ -64,8 +64,10 @@ int a = 30;
 const int b = a; // this will workm since it's not changing the values but copying.
 ```
 ---
-### Google Test Framework & GMock
+### [Google Test Framework & GMock](https://github.com/google/googletest)
+
 They are used to test code and interface of a cpp file. They are like Junit Test in Java
+Google Test Framework 
 Let's say we have three functions in a class called happy.cpp: <br />
 ```
 class happy{
