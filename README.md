@@ -1,4 +1,5 @@
 ### Bash and Linux
+Linux subsystem in Windows10:<br/>
 Creating a linux subsystem in windows10 is very helpful and useful, since you're combining the advantages of Linux Ubuntu and Windows 10.
 After installing it in Windows Store, type ```sudo apt-get update && sudo apt-get upgrade``` to update available packages.
 type ```pwd```, and you will see ```/home/username```
