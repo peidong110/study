@@ -63,6 +63,8 @@ int a = 30;
 const int b = a; // this will workm since it's not changing the values but copying.
 ```
 ---
+### Google Test Framework & GMock
+They are used to test code and interface of a cpp file. They are like Junit Test in Java
 
 
 ### Version Control
