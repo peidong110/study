@@ -65,7 +65,27 @@ const int b = a; // this will workm since it's not changing the values but copyi
 ---
 ### Google Test Framework & GMock
 They are used to test code and interface of a cpp file. They are like Junit Test in Java
+Let's say we have three functions in a class called happy.cpp: <br />
+```
+class happy{
+   void sayHello(){implementation omitted}
+   void stringConcatenation(string & name){implementation omitted}
+   void act(string &name, int age){implementation omitted}
+}
+```
+These 3 functions are all in a cpp file called happy.cpp/ happy.cc
+If we want to test out them, we can create a file called happyMock that inherits from happy.cpp,
+```
+class happyMock: public happy{
+ 
+    MOCK_METHOD0(sayHello());
+    MOCK_METHOD1(stringConcatenation(string & name));
+    MOCK_METHOD2(string &name, int age));
+    //MOCK_METHODX, where X is the parameter in your your function
+}
+```
 
+---
 
 ### Version Control
 Lest we destroy or damage the data in our Master branch, we need to create a branch and make changes in the branch, in order to do that you can just type ```git checkout -b branchName``` And this will create a new branch and switch into that branch. If you want to go switch to the previous branch you've been working on, you can type ```git checkout -``` You can modify your changes there by using ```git status``` will let you know the changes you made.  ```git add .``` will all the changed files. ```git commit -m "Replace this with your commit mssages" ``` will make the commit, and leave a commit message. ```git push origin branchName``` will push all the changes to that branch. However if you add something which you did not intend to add, you can use ```git reset branchName^``` to reset the banch and clear all the history. 
