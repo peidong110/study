@@ -94,8 +94,19 @@ class happyMock: public happy{
 Lest we destroy or damage the data in our Master branch, we need to create a branch and make changes in the branch, in order to do that you can just type ```git checkout -b branchName``` And this will create a new branch and switch into that branch. If you want to go switch to the previous branch you've been working on, you can type ```git checkout -``` You can modify your changes there by using ```git status``` will let you know the changes you made.  ```git add .``` will all the changed files. ```git commit -m "Replace this with your commit mssages" ``` will make the commit, and leave a commit message. ```git push origin branchName``` will push all the changes to that branch. However if you add something which you did not intend to add, you can use ```git reset branchName^``` to reset the banch and clear all the history. 
 <br />
 So after resetting the branch, when you are trying to add files and push changes to your own branch. You might face a problem which indicates ```Updates were rejected becasue the tip of your current branch is behind.``` The reasons for this happening is that you just uploaded files that you don't want, now when you reset the branch, and you're not adding items(files you don't whant) this time. In order to solve this issue, you can actually use ```git push -f origin branchName``` to forece git to make changes. At this point you have successfully deleting files you do not want.
+---
+### Latex
+How to add code fragment in Latex file?:
+\begin{verbatim}
+print("Hello World")
+\end{verbatim}
 
+\begin{lstlisting}[language=c++, frame= single]
+Cout << "ddddd"<<endl;
+Cout << "ddddd"<<endl;
+\end{lstlisting}
 
+---
 ### Data Structure
 **Linked list** is a data structure that stores **references && nodes**
 references would be able to store front and back references at the same time or not, nodes stores all the data.
