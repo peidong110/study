@@ -10,6 +10,8 @@ Type ```vi .bashrc``` and press ``` i ``` to add the line below to your home dir
 Press ```ESC``` and put ```:wq``` to exit vim.
 So you can just type ```winDir``` to access your host machine directory
 <br>
+How to change the host name of linunx machine? ```sudo hostname newName``` and key in your password, you will be able to update your host name at runtime. However this will be changed back to your previos name when you shut down your machien or reboot it. You need to change the actual name in configuration which is in ```/etc``` <br />
+How to become a super user? ```sudo su -``` <br />
 ### history 
 If you want to check out the history of commands you ran in the past, you can achieve that by type ```history``` and you will be able see a list like 
 ```
