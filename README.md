@@ -109,7 +109,8 @@ It's efficient and quick to insert a new node or deleting a node, however it's n
 ---
 
 ### Latex
-How to bold a word or letter in Latex file?:```\textbf{textddddddd}```<br / >
+How to bold a word or letter in Latex file?:<br />```\textbf{textddddddd}```
+<br />
 How to add code fragment in Latex file?:
 ```
 \begin{verbatim}
