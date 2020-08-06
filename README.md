@@ -109,13 +109,16 @@ It's efficient and quick to insert a new node or deleting a node, however it's n
 ---
 
 ### Latex
+How to bold a word or letter in Latex file?:```\textbf{textddddddd}```<br / >
 How to add code fragment in Latex file?:
-\begin{verbatim}<br/>
-print("Hello World")<br/>
-\end{verbatim}<br/>
+```
+\begin{verbatim}
+print("Hello World")
+\end{verbatim}
 
 \begin{lstlisting}[language=c++, frame= single]
-Cout << "ddddd"<<endl;<br/>
-Cout << "ddddd"<<endl;<br/>
-\end{lstlisting}<br/>
+Cout << "ddddd"<<endl;
+Cout << "ddddd"<<endl;
+\end{lstlisting}
+```
 
