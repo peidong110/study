@@ -130,8 +130,38 @@ Cout << "ddddd"<<endl;
 Linear Transformation, Nullity and Rank<br/>
 M(x,y), Pn, Rz
 
-Let t be a linear transformation from P6 to R7<br/>
+Let t be a linear transformation from P5 to R6<br/>
 The minimum Rank would be: ```0```<br/>
-The maximum Rank would be: ```7```<br/>
-The minimum Nullity would be ```7```<br/>
-The maximum Nullity would be ``` 7```<br/>
+The maximum Rank would be: ```6```<br/>
+The minimum Nullity would be ```0```<br/>
+The maximum Nullity would be ```6```<br/>
+
+Let t be a linear transformation from P7 to R8<br/>
+The minimum Rank would be: ```0```<br/>
+The maximum Rank would be: ```8```<br/>
+The minimum Nullity would be ```0```<br/>
+The maximum Nullity would be ```8```<br/>
+
+Let t be a linear transformation from P4 to R5<br/>
+The minimum Rank would be: ```0```<br/>
+The maximum Rank would be: ```5```<br/>
+The minimum Nullity would be ```0```<br/>
+The maximum Nullity would be ```5```<br/>
+
+Let t be a linear transformation from R15 to M 7,6<br/>
+The minimum Rank would be: ```0```<br/>
+The maximum Rank would be: ```15```<br/>
+The minimum Nullity would be ```0```<br/>
+The maximum Nullity would be ```15```<br/>
+
+Let t be a linear transformation from R14 to M 4,6<br/>
+The minimum Rank would be: ```0```<br/>
+The maximum Rank would be: ```14```<br/>
+The minimum Nullity would be ```0```<br/>
+The maximum Nullity would be ```14```<br/>
+
+Let t be a linear transformation from R13 to M 4,5<br/>
+The minimum Rank would be: ```0```<br/>
+The maximum Rank would be: ```13```<br/>
+The minimum Nullity would be ```0```<br/>
+The maximum Nullity would be ```13```<br/>
