@@ -124,4 +124,14 @@ Cout << "ddddd"<<endl;
 Cout << "ddddd"<<endl;
 \end{lstlisting}
 ```
+---
 
+### Linear Algebra
+Linear Transformation, Nullity and Rank<br/>
+M(x,y), Pn, Rz
+If M(X == Y):<br/>
+Let t be a linear transformation from M 5,5 to P16<br/>
+The minimum Rank would be: ```0```<br/>
+The maximum Rank would be: ```17```<br/>
+The minimum Nullity would be ```8```<br/>
+The maximum Nullity would be ``` 25```<br/>
