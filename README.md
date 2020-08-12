@@ -9,11 +9,13 @@ Type ```vi .bashrc``` and press ``` i ``` to add the line below to your home dir
 (No Space between windir and '')
 Press ```ESC``` and put ```:wq``` to exit vim.
 So you can just type ```winDir``` to access your host machine directory
-<br>
+<br/>
 How to change the host name of linunx machine? ```sudo hostname newName``` and key in your password, you will be able to update your host name at runtime. However this will be changed back to your previos name when you shut down your machien or reboot it. You need to change the actual name in configuration which is in ```/etc``` <br />
 How to become a super user? ```sudo su -``` <br />
-how to print all running process ```top``` 
-How to search for a string of existance in a directory? ```grep -R "text" ./ ``` or ```grep -r "text" ./ ``` These two commands are doing the same thing, but they have some minor differences, please use ```man grep``` to see the differences.
+how to print all running process ```top``` <br/>
+How to search for a string of existance in a directory? ```grep -R "text" ./ ``` or ```grep -r "text" ./ ``` These two commands are doing the same thing, but they have some minor differences, please use ```man grep``` to see the differences.<br/>
+How to display line number when using grep? ```-n``` <br/>
+
 ### history 
 If you want to check out the history of commands you ran in the past, you can achieve that by type ```history``` and you will be able see a list that have the lines that you want to look for. If you want to save it in another file, you can use pipeline by doing ```grep -R "text" ./ > output.text```<br/>
 
