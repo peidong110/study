@@ -18,6 +18,7 @@ How to become a super user? ```sudo su -``` <br />
 how to print all running process? ```top``` <br/>
 How to search for a string of existance in a directory? ```grep -R "text" ./ ``` or ```grep -r "text" ./ ``` These two commands are doing the same thing, but they have some minor differences, please use ```man grep``` to see the differences.<br/>
 How to display line number when using grep? ```-n``` <br/>
+If you find some files which is not appearing in your file explorer but you do have it in terminal? ```ctrl + r```   
 
 ---
 ### history 
